@@ -69,9 +69,9 @@ const Projects = () => {
       bullets: [
         "Architected a scalable Spring Boot backend deployed via Docker on Render, ensuring concurrent-safe ticketing and robust data integrity.",
         "Engineered a high-performance Angular frontend hosted on Vercel, featuring a custom 3D stacked coverflow carousel for dynamic movie discovery.",
-        "Implemented secure JWT-based multi-role authorization (Admin, Manager, Customer) and responsive state management for seamless user workflows."
+        "Implemented robust multi-role authorization (Admin, Manager, Customer) and responsive state management for seamless user workflows."
       ],
-      tech: ["Java", "Spring Boot", "Angular", "Docker", "MySQL", "JWT"],
+      tech: ["Java", "Spring Boot", "Angular", "Docker", "MySQL"],
       category: "Full Stack Web",
       github: "https://github.com/ameer2402/MovieBookingApplication",
       live: "https://movie-booking-application-sage.vercel.app/"
