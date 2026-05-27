@@ -64,15 +64,17 @@ const Projects = () => {
       category: "Enterprise Systems",
     },
     {
-      title: "Movie Booking Application",
-      description: "A full-stack ticket booking platform featuring interactive seat selection, real-time availability updates, multi-step payment confirmation flows, and email notifications.",
+      title: "CinePrestige – Movie Booking Platform",
+      description: "A cloud-native, full-stack movie ticketing application delivering a premium cinematic user experience with interactive 3D carousels, real-time seat mapping, and secure booking flows.",
       bullets: [
-        "Interactive seat availability grid and theater-wise show scheduling",
-        "Multi-role dashboards for Customers, Admins, and Theater Managers",
-        "Built with a Java + Spring Boot backend and dynamic Angular frontend"
+        "Architected a scalable Spring Boot backend deployed via Docker on Render, ensuring concurrent-safe ticketing and robust data integrity.",
+        "Engineered a high-performance Angular frontend hosted on Vercel, featuring a custom 3D stacked coverflow carousel for dynamic movie discovery.",
+        "Implemented secure JWT-based multi-role authorization (Admin, Manager, Customer) and responsive state management for seamless user workflows."
       ],
-      tech: ["Java", "Spring Boot", "Angular", "TypeScript", "MySQL", "JWT"],
+      tech: ["Java", "Spring Boot", "Angular", "Docker", "MySQL", "JWT"],
       category: "Full Stack Web",
+      github: "https://github.com/ameer2402/MovieBookingApplication",
+      live: "https://movie-booking-application-sage.vercel.app/"
     },
     {
       title: "NewsTracker – React News Aggregator",
