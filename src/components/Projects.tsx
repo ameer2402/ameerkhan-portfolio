@@ -41,16 +41,16 @@ const Projects = () => {
     },
     {
       title: "BlogSpace – Full Stack MERN Blogging Platform",
-      description: "A production-grade blogging platform supporting end-to-end CRUD operations, secure authentication, and cloud-based media management for thousands of users.",
+      description: "A production-grade blogging platform engineered with strict request validation, full-text search indexing, secure authentication, and cloud-based media management.",
       bullets: [
-        "99% uptime with a 30% faster login flow",
-        "Engineered auth with JWT, Google OAuth 2.0, and email OTPs",
-        "Features Quill rich-text editor, real-time comments, and Cloudinary storage"
+        "Implemented robust authentication utilizing JWT, Google OAuth 2.0 integration, and Nodemailer OTP email flows.",
+        "Integrated strict Zod contract schema validation, XSS input sanitization filters, and MongoDB Compound Text Search indexes.",
+        "Designed an interactive Chart.js analytics dashboard, recursive nested comment structures, and a persistent CSS-variable dark mode."
       ],
       tech: ["Node.js", "Express.js", "MongoDB", "JWT", "OAuth 2.0", "Bootstrap"],
       category: "Full Stack Web",
       github: "https://github.com/ameer2402/BlogSpace",
-      live: "https://blog-space-w6ogg1lw3-ameers-projects-44e10a15.vercel.app/"
+      live: "https://blog-space-2rpkbtuiy-ameers-projects-44e10a15.vercel.app/"
     },
     {
       title: "Pet Care Management System",
