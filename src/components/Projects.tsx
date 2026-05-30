@@ -50,7 +50,7 @@ const Projects = () => {
       tech: ["Node.js", "Express.js", "MongoDB", "JWT", "OAuth 2.0", "Bootstrap"],
       category: "Full Stack Web",
       github: "https://github.com/ameer2402/BlogSpace",
-      live: "https://blog-space-vert.vercel.app/"
+      live: "https://blog-space-w6ogg1lw3-ameers-projects-44e10a15.vercel.app/"
     },
     {
       title: "Pet Care Management System",
