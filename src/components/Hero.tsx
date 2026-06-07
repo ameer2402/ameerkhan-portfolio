@@ -144,7 +144,7 @@ const Hero = () => {
                 variant="outline"
                 className="relative overflow-hidden group border-2 border-primary text-foreground min-w-[200px] bg-transparent hover:!bg-primary hover:!text-white hover:shadow-[0_0_20px_rgba(var(--primary),0.4)] transition-all duration-300"
                 onClick={() => {
-                  window.open(`${import.meta.env.BASE_URL}ameer_resume.pdf`, '_blank');
+                  window.open(`${import.meta.env.BASE_URL}ameer_resume.pdf?v=${new Date().getTime()}`, '_blank');
                 }}
               >
                 <Download className="mr-2 relative z-10 group-hover:-translate-y-1 transition-transform duration-300" size={20} />

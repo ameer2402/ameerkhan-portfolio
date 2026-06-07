@@ -37,7 +37,8 @@ const Projects = () => {
       ],
       tech: ["Python", "LangGraph", "LangChain", "Gemini", "ChromaDB", "FastAPI"],
       category: "AI & Education",
-      github: "https://github.com/ameer2402/VedaMate-Version-1"
+      github: "https://github.com/ameer2402/VedaMate-Version-1",
+      live: "https://vedamate.vercel.app/"
     },
     {
       title: "BlogSpace – Full Stack MERN Blogging Platform",
@@ -62,6 +63,7 @@ const Projects = () => {
       ],
       tech: ["Java", "Spring Boot", "Hibernate", "Angular", "MySQL", "Swagger"],
       category: "Enterprise Systems",
+      nda: true
     },
     {
       title: "CinePrestige – Movie Booking Platform",
@@ -88,19 +90,6 @@ const Projects = () => {
       category: "Frontend Development",
       github: "https://github.com/ameer2402/NewsTracker",
       live: "https://ameer2402.github.io/NewsTracker/"
-    },
-    {
-      title: "Role-Based Access Control (RBAC) System",
-      description: "A secure authentication and authorization platform featuring hierarchical user roles, JWT validation, and server-side session management.",
-      bullets: [
-        "Engineered a 3-tier access control matrix (Admin, Moderator, Client) with isolated permissions",
-        "Implemented secure JWT authentication flows with password hashing and session flash messages",
-        "Built dynamic admin dashboards for user lifecycle management using EJS templating"
-      ],
-      tech: ["Node.js", "Express.js", "MongoDB", "JWT", "EJS"],
-      category: "Backend & Security",
-      github: "https://github.com/ameer2402/RBAC",
-      live: "https://rbac-fuipl711s-ameers-projects-44e10a15.vercel.app"
     }
   ];
 
